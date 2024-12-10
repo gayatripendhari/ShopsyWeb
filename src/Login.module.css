@@ -1,0 +1,79 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color:royalblue;
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width:400px;
+    background-color: #f3f4f6; /* Light background color */
+    margin-left:35%;
+    margin-top:10%;
+    border: 1px whitesmoke;
+    box-shadow:5px gray;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333; /* Dark gray for the title */
+    margin-bottom: 20px;
+    background-color: #f3f4f6;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px; /* Limit the width of the form */
+    padding: 20px;
+    background-color: #f3f4f6;
+ 
+  }
+  
+  .ip {
+    width:250px;
+    background-color: #f3f4f6;
+    text-align:center;
+    color:black;
+    font-size: 1rem;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border:none; /* Light gray border */
+    border-radius:5px; /* Rounded corners */
+    border-bottom:1px solid gray;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .ip:focus {
+    border-color: #007bff; /* Blue border on focus */
+  }
+  
+  .log {
+    background-color: #007bff; /* Primary blue button */
+    color: #fff; /* White text */
+    font-size: 1rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width:150px;
+    margin-left:20%;
+  }
+  
+  .log:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .log:active {
+    background-color: #003f7f; /* Even darker blue when clicked */
+  }
+  
+  
